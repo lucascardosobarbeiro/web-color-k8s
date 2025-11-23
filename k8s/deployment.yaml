@@ -4,6 +4,7 @@ metadata:
   name: webcolor
 spec:
   selector:
+    replicas: 3 #add more replicas
     matchLabels:
       app: webcolor
   template:
